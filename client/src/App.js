@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Map from "./components/Map"
 
 function App() {
   return (
-    <h1>Yelpington</h1>
+    <div>
+      <h1>Yelpington</h1>
+      <Map center={[43.88, -72.7317]} zoom={8} />
+    </div>
   );
 }
 
