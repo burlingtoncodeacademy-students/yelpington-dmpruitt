@@ -1,14 +1,74 @@
 [
   {
-    "id": "joes-diner",
-    "name": "Joe's Diner",
-    "address": "123 King St.",
-    "gps": [0, 0],
-    "phone number": "555-1221",
-    "hours": "7:00 am - 3:00 pm",
+    "id": "kismet",
+    "name": "Kismet",
+    "address": "207 Barre St.",
+    "gps": [44.25325533749974, -72.57020900289771],
+    "phone number": "225-6489",
+    "hours": "7:30 am - 3:00 pm Wed-Sun",
     "notes": [
-      "Their sriracha breakfast sandwich is quite good.",
-      "Every Thursday is meatloaf day."
+      "First comment!",
+      "Quite yummy."
+    ]
+  },
+  {
+    "id": "royal-orchid",
+    "name": "Royal Orchid",
+    "address": "38 Elm St. #1",
+    "gps": [44.261455257538586, -72.57590962257133],
+    "phone number": "223-0436",
+    "hours": "11:30AM–2 pm, 3:30–8 pm Tues-Sun",
+    "notes": [
+      "Great whatever you get!",
+      "Highly recommended."
+    ]
+  },
+  {
+    "id": "julios",
+    "name": "Julio's",
+    "address": "54 State St.",
+    "gps": [44.26031180135676, -72.57692662042446],
+    "phone number": "229-9348",
+    "hours": "Noon - 8:30 pm, Thur-Sun",
+    "notes": [
+      "Tacos, need I say more?",
+      "Great chimichanga!"
+    ]
+  },
+  {
+    "id": "bohemian-bakery",
+    "name": "Bohemian Bakery",
+    "address": "83 Main St.",
+    "gps": [44.25997294189606, -72.57507830946777],
+    "phone number": "461-8119",
+    "hours": "8 am - 2:00 pm, Wed-Sun",
+    "notes": [
+      "Best fancy coffee, or any coffee, in town.",
+      "C'est tres bon!"
+    ]
+  },
+  {
+    "id": "the-mad-taco",
+    "name": "The Mad Taco",
+    "address": "72 Main St.",
+    "gps": [44.25992574634395, -72.57571617762689],
+    "phone number": "225-6038",
+    "hours": "Noon - 8:00 pm, Tues-Sun",
+    "notes": [
+      "Great Burritos!",
+      "Muy bien!"
+    ]
+  },
+  {
+    "id": "sarduccis",
+    "name": "Sarducci's",
+    "address": "3 Main St.",
+    "gps": [44.25792277791533, -72.57686087960793],
+    "phone number": "223-0229",
+    "hours": "11:30 am - 9 pm Mon-Sat, 4 pm - 9 pm Sunday",
+    "notes": [
+      "Tiramisu!",
+      "Benissimo!"
     ]
   }
 ]
