@@ -1,0 +1,10 @@
+{
+  "id": "bohemian-bakery",
+  "name": "Bohemian Bakery",
+  "address": "83 Main St.",
+  "lat": 44.25997294189606,
+  "lon": -72.57507830946777,
+  "phone number": "461-8119",
+  "hours": "8 am - 2:00 pm, Wed-Sun",
+  "notes": ["Best fancy coffee, or any coffee, in town.", "C'est tres bon!"]
+}

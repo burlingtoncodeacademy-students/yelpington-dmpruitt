@@ -1,0 +1,10 @@
+{
+  "id": "kismet",
+  "name": "Kismet",
+  "address": "207 Barre St.",
+  "lat": 44.25325533749974,
+  "lon": -72.57020900289771,
+  "phone number": "225-6489",
+  "hours": "7:30 am - 3:00 pm Wed-Sun",
+  "notes": ["First comment!", "Quite yummy."]
+}

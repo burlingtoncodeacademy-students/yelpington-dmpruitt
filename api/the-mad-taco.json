@@ -1,0 +1,10 @@
+{
+  "id": "the-mad-taco",
+  "name": "The Mad Taco",
+  "address": "72 Main St.",
+  "lat": 44.25992574634395,
+  "lon": -72.57571617762689,
+  "phone number": "225-6038",
+  "hours": "Noon - 8:00 pm, Tues-Sun",
+  "notes": ["Great Burritos!", "Muy bien!"]
+}

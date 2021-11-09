@@ -1,0 +1,10 @@
+{
+  "id": "julios",
+  "name": "Julio's",
+  "address": "54 State St.",
+  "lat": 44.26031180135676,
+  "lon": -72.57692662042446,
+  "phone number": "229-9348",
+  "hours": "Noon - 8:30 pm, Thur-Sun",
+  "notes": ["Tacos, need I say more?", "Great chimichanga!"]
+}

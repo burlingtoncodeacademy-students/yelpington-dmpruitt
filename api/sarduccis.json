@@ -1,0 +1,10 @@
+{
+  "id": "sarduccis",
+  "name": "Sarducci's",
+  "address": "3 Main St.",
+  "lat": 44.25792277791533,
+  "lon": -72.57686087960793,
+  "phone number": "223-0229",
+  "hours": "11:30 am - 9 pm Mon-Sat, 4 pm - 9 pm Sunday",
+  "notes": ["Tiramisu!", "Benissimo!"]
+}
