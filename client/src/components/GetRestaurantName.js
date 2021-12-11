@@ -15,10 +15,8 @@ export default function GetRestaurantName() {
       });
   }, [setRestaurant]);
 
-let totalnum = (restaurant.length - 1)
-// console.log(totalnum)
-
-
+  let totalnum = restaurant.length - 1;
+  // console.log(totalnum)
 
   return (
     <>

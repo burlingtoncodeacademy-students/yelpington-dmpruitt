@@ -10,7 +10,7 @@ app.use(express.static("./public"));
 
 app.get("/api/:restaurantId", (req, res) => {
   // When the user visits the route /api, this will display a list of all availabnle resaurant IDs in JSON format.
-  res.sendFile(__dirname + "/api/" + req.params.restaurantId + ".json")
+  res.sendFile(__dirname + "/api/" + req.params.restaurantId + ".json");
 });
 // When the user visits the route /api, this will display a list of all availabnle resaurant IDs in JSON format.
 app.get("/api", (req, res) => {

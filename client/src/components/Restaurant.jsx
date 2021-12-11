@@ -1,17 +1,16 @@
 import "../App.css";
 import React, { useState, useEffect } from "react";
-import Map from "./Map";
 
 function Restaurant(props) {
   let [restaurantInfo, setRestaurantInfo] = useState({});
-  let location
+  let location;
   let lat = 0;
   let lon = 0;
 
   useEffect(() => {
     fetch("http://localhost:5000/api/" + props.id)
       .then((response) => {
-       return  response.json();
+        return response.json();
       })
       .then((json) => {
         setRestaurantInfo(json);
@@ -30,21 +29,8 @@ function Restaurant(props) {
   lon = restaurantInfo["lon"];
   location = [lat, lon];
   location = Object.values(location); // This was an attempt to correct the [NaN,NaN] error, as was the if statement below
-  console.log(location)
+  console.log(location);
 
-  // if (location === undefined) {
-  //   // do nothing
-  // } else if (location === typeof Array) {
-  //   // do nothing
-  // } else {
-  //   // convert to Array
-  //   lat = parseFloat(location[0]);
-  //   lon = parseFloat(location[1]);
-  //   location = [lat, lon];
-  //   location = Object.values(location);
-  //   console.log(Object.values(location));
-  // }
-  // let center = location;
   return (
     <>
       <h1>you have reached restaurant.js</h1>
