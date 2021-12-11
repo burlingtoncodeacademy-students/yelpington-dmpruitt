@@ -9,6 +9,8 @@ let DefaultIcon = L.icon({
   shadowUrl: iconShadow,
 });
 
+// this is the Map component that displays the map on the main page as well as on each restaurant's page, depending on the props given it
+
 function Map(props) {
   let vtOutline = borderData.geometry.coordinates[0].map((coords) => [
     coords[1],

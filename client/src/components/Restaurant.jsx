@@ -18,14 +18,10 @@ function Restaurant(props) {
       });
   }, [setRestaurantInfo]);
 
-  // console.log(restaurantInfo);
   let name = restaurantInfo["name"];
-  // console.log(restaurantInfo["name"]);
   let address = restaurantInfo["address"];
-  // let location = [restaurantInfo["lat"], restaurantInfo["lon"]];
 
   lat = restaurantInfo["lat"];
-  // console.log(restaurantInfo["lat"])
   lon = restaurantInfo["lon"];
   location = [lat, lon];
   location = Object.values(location); // This was an attempt to correct the [NaN,NaN] error, as was the if statement below
@@ -34,14 +30,17 @@ function Restaurant(props) {
   return (
     <>
       <h1>you have reached restaurant.js</h1>
+      <h1>here is where the Restaurant info would be displayed</h1>
       <p>{name}</p>
       <p>{address}</p>
       {/* <p>{location}</p> */}
+      {/* this area was intended to be where the reviews for the restaurant would be */}
+      <p>{}</p> 
       <p>{}</p>
       <p>{}</p>
       <p>{}</p>
       <p>{}</p>
-      <p>{}</p>
+      {/*  */}
       {/* <Map center={location} zoom={15} marker={location} /> */}
     </>
   );

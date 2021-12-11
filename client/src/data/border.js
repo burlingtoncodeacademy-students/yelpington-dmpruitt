@@ -1,3 +1,5 @@
+// here is the data for the border of Vermont drawn for the map
+// seen if zoomed out to that level
 const borderData = {
   type: "Feature",
   properties: {
