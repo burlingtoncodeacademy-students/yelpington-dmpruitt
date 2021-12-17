@@ -1,8 +1,5 @@
 import "./App.css";
 import Map from "./components/Map";
-import Restaurant from "./components/Restaurant";
-import GetRestaurantName from "./components/GetRestaurantName";
-import React, { useState, useEffect } from "react";
 
 // Initially, this page will display a map centered on Montpelier
 // with pins for each of the restaurants

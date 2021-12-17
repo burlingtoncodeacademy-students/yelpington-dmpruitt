@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Restaurant from "./Restaurant";
 
 export default function GetRestaurantName() {
   const [restaurant, setRestaurant] = useState({});

@@ -5,6 +5,9 @@ const cors = require("cors");
 app.use(cors());
 
 // This file was renamed to server.js so there would be less confusion as to it's purpose.
+// the public folder is set to static 
+// calling the api brings back all of the restaurants
+// calling the api/id (id = number), brings back the individual restaurant's info 
 
 app.use(express.static("./public")); // using the statiic directory for the served folders
 
